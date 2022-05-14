@@ -1,0 +1,50 @@
+.main {
+    flex-direction: row-reverse;
+    align-items: center;
+    background-size: 36%;
+    background-position: left bottom;
+}
+.profile__container {
+    width: 60%;
+    height: 80%;
+    margin-right: 10px;
+    padding: 44px 0px;
+    background-size: contain;
+    margin-bottom: 0;
+}
+.profile__img{
+    width: 442px;
+}
+.profile__img--button{
+    left: calc(10%);
+}
+
+.button{
+    width: 40px;
+}
+
+.profile__info {
+    padding-left: 70px;
+    margin-left: 10%;
+    width: 30%;
+    text-align: left;
+    background-size: 24%;
+    z-index: 1;
+}
+
+.profile__info--description{
+    margin-top: 28px;
+    width: 530px;
+    line-height: 36px;
+    font-size: 2.6rem;
+}
+.profile__info--name {
+    display: inline;
+    margin-right: 10px;
+}
+.profile__info--profession {
+    display: inline;
+    width: 500px;
+}
+
+    
