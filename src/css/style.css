@@ -17,7 +17,7 @@ html{
     justify-content: center;
     width: 100%;
     min-height: 100vh;
-    background-image: url('/images/pattern-curve.svg');
+    background-image: url('../../images/pattern-curve.svg');
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: 60%;
@@ -26,7 +26,7 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url('/images/pattern-bg.svg');
+    background: url('../../images/pattern-bg.svg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
@@ -63,21 +63,21 @@ html{
 }
 
 .previous{
-    background-image: url('/images/icon-prev.svg');
+    background-image: url('../../images/icon-prev.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 10px;
 }
 
 .next{
-    background-image: url('/images/icon-next.svg');
+    background-image: url('../../images/icon-next.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 10px;
 }
 
 .profile__info{
-    background: url('/images/pattern-quotes.svg');
+    background: url('../../images/pattern-quotes.svg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: 48px;

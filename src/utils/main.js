@@ -32,6 +32,7 @@ function printSlide(position){
     profileProfession.textContent=  slide.profession
 }
 
+
 button.addEventListener('click', (event) => {
     if (event.target.id === 'botton_next') {
         next();
@@ -49,3 +50,5 @@ window.addEventListener('keyup', e => {
         previous()
     }
 })
+
+document.addEventListener('DOMContentLoaded',printSlide(actualSlide));
